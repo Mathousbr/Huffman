@@ -13,7 +13,7 @@ void endScreenCtrl() {
 	system("cls");
 	fflush(stdin);
 	#else
-	printf("\nNo recognized system");
+	printf("\nNo recognized system\n");
 	#endif
 }
 void exitScreen() {

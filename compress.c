@@ -38,7 +38,7 @@ void constructByteWay(u_char byteWay[][BYTENUMBER_MAX], u_char byteWayPass[], hT
 	if(tree->right != NULL) {
 		deepPass = deep + 1;
 		byteWayPass[deep] = '1';
-		constructByteWay(byteWay, byteWayPass, tree->right, deep+1);
+		constructByteWay(byteWay, byteWayPass, tree->right, deepPass);
 		deepPass = deep;
 	}
 }
